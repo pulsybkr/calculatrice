@@ -141,3 +141,11 @@ section{
     .num9 { grid-area: 2 / 3 / 3 / 4; }
     .inc0 { grid-area: 5 / 1 / 6 / 2; }
     .virg { grid-area: 5 / 3 / 6 / 4; }
+
+
+    @media screen and (max-width: 500px) {
+        main {
+            width: 100%;
+            height: 100vh;
+        }
+    }
