@@ -1,0 +1,143 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+main
+{
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 30%;
+   
+}
+
+section{
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *************************** ecran */
+.ecran2
+{
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.614);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+.ecran1
+{
+    display: block;
+    width: 100%;
+    height: 70%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+    font-size: 4rem;
+}
+
+
+
+
+/* table ************************.......*/
+/* *************************************** */
+/* ******************************************* */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: white;
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    cursor: pointer;
+
+    }
+    
+    .div
+    {
+        margin: 2px;
+        background-color: rgba(21, 20, 20, 0.651);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+    .div:hover{
+        background-color: black;
+    }
+
+    .divs
+    {
+        margin: 2px;
+        background-color: rgba(20, 20, 20, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+    .divs:hover{
+        background-color: black;
+    }
+
+    .dells { grid-area: 1 / 1 / 2 / 2; }
+    .pourc { grid-area: 1 / 2 / 2 / 3; }
+    .divise { grid-area: 1 / 3 / 2 / 4; }
+    .dell { grid-area: 1 / 4 / 2 / 5; }
+    .fois { grid-area: 2 / 4 / 3 / 5; }
+    .moin { grid-area: 3 / 4 / 4 / 5; }
+    .plus { grid-area: 4 / 4 / 5 / 5; }
+    .egal { grid-area: 5 / 4 / 6 / 5; }
+    .num0 { grid-area: 5 / 2 / 6 / 3; }
+    .num1 { grid-area: 4 / 1 / 5 / 2; }
+    .num2 { grid-area: 4 / 2 / 5 / 3; }
+    .num3 { grid-area: 4 / 3 / 5 / 4; }
+    .num4 { grid-area: 3 / 1 / 4 / 2; }
+    .num5 { grid-area: 3 / 2 / 4 / 3; }
+    .num6 { grid-area: 3 / 3 / 4 / 4; }
+    .num7 { grid-area: 2 / 1 / 3 / 2; }
+    .num8 { grid-area: 2 / 2 / 3 / 3; }
+    .num9 { grid-area: 2 / 3 / 3 / 4; }
+    .inc0 { grid-area: 5 / 1 / 6 / 2; }
+    .virg { grid-area: 5 / 3 / 6 / 4; }
